@@ -9,8 +9,8 @@ body {
 
 .personal-info-section {
     display: flex;
-    align-items: flex-end;
-    width: 58%;
+    align-items: flex-start;
+    width: 62%;
 }
 
 .avatar {
