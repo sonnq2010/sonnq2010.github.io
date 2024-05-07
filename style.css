@@ -3,14 +3,14 @@
 }
 
 body {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', cursive;
     padding: 24px;
 }
 
 .personal-info-section {
     display: flex;
     align-items: flex-start;
-    width: 62%;
+    /* width: 62%; */
 }
 
 .avatar {
@@ -19,16 +19,17 @@ body {
 }
 
 .name {
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .job-title {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0 0 12px 0;
 }
 
 .description {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 ul {
@@ -45,16 +46,22 @@ hr {
     margin: 0;
 }
 
+.section-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
 .info-item {
     margin: 12px 0;
 }
 
+
 .item-header {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .item-description {
-    font-size: 12px;
+    font-size: 14px;
     color: rgb(117, 117, 117);
 }
 
@@ -71,7 +78,7 @@ hr {
 }
 
 .skill-name {
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 12px;
 }
 
