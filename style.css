@@ -10,7 +10,7 @@ body {
 .personal-info-section {
     display: flex;
     align-items: flex-start;
-    width: 62%;
+    /* width: 62%; */
 }
 
 .avatar {
@@ -38,6 +38,11 @@ ul {
     list-style: none;
 }
 
+ul.contact-info li {
+    display: inline;
+    margin-right: 24px;
+}
+
 .detail-info-section {
     margin-top: 24px;
 }
@@ -63,6 +68,11 @@ hr {
 .item-description {
     font-size: 14px;
     color: rgb(117, 117, 117);
+}
+
+.item-detail {
+    font-size: 15px;
+    margin-left: 16px;
 }
 
 .skill-section {
